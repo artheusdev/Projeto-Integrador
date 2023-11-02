@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: black; 
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%; 
+    height: 100%; 
+}
+
+.centered-text {
+    font-size: 1.8vw; 
+    color: #FF0000;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.5vw; 
+    border: 0.3vw solid #FF0000; 
+    border-radius: 2vw; 
+    text-align: center;
+    max-width: 90%; 
+    margin: 0 auto; 
+    text-decoration: none;
+}
+
+/* Media query  768 pixels */
+@media screen and (max-width: 768px) {
+    .centered-text {
+        font-size: 10vw;
+        padding: 6vw;
+        border-width: 0.6vw;
+        border-radius: 4vw;
+    }
+}
