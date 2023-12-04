@@ -65,16 +65,15 @@ button:hover {
 
 @media (max-width: 499px) {
   body {
-    font-size: 16px; /* Tamanho do texto */
-    /* Outros estilos do body para dispositivos menores */
+    font-size: 16px; 
   }
 }
 
 @media (max-width: 768px) {
   body {
-    width: 90%; /* Ajusta a largura da página para ocupar toda a largura da tela */
-    margin: 0 auto; /* Centraliza o conteúdo */
-    max-width: none; /* Remove o limite máximo de largura */
+    width: 90%; 
+    margin: 0 auto; 
+    max-width: none; 
   }
 
 }
