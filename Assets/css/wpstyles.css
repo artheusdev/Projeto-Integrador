@@ -1,0 +1,97 @@
+/* Estilos para a página secundária */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #f7f7f7, #eaeaea);
+}
+
+.article-text {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.article-text h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.article-text p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.article-text img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%; 
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 480px) {
+  .article-text {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .article-text h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .article-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .article-text {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .article-text h1 {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+
+  .article-text p {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Estilos para laptops e desktops */
+@media (min-width: 768px) {
+  .article-text {
+    padding: 40px;
+    margin: 20px auto;
+  }
+
+  .article-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .article-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}

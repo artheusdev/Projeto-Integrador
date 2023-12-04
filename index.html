@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matrix Effect</title>
-    <link rel="stylesheet" href="Assets/css/styles.css">
+  <title>Página Principal</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body class="container">
+  <div class="senac-logo">
+    <!-- Atualizando o caminho da imagem -->
+    <img src="assets/img/senac.png" alt="Senac Image" style="width: 100%; max-width: 400px;">
+  </div>
 
-<body>
-    <div class="centered-text">Você foi hackeado(a) e seus dados estão sob vigilância!</div>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpKDz_UDU_RaiXmI32Oa8NSpOZyZO99F_OwlBzkc9lfsCl57JeBTfLygzqFAlr1-goHtbcXHI7ZoeKhCdj17L4jGFUkZglIkt8toT-xVA8vgYkq27Pmh58_Hxiw-qzYljVqRLYoK6Gs_NZ7ballK0qqo2_TSw57rPfqpxodrBowxnzHWwQhshzP1AFQzg/s1600/anonymous-logo-7E968E8797-seeklogo.com-removebg-preview%20(1).png" alt="Anonymous Logo" class="centered-image">
-    <canvas id="matrix"></canvas>
-    <script src="Assets/js/script.js"></script>
+  <div class="login-container">
+    <h2>Login</h2>
+    <input type="text" placeholder="Usuário" id="username">
+    <input type="password" placeholder="Senha" id="password">
+    <div class="terms">
+      <input type="checkbox" id="terms-checkbox">
+      <label for="terms-checkbox">Li o Termo de Responsabilidade e estou de acordo com as condições declaradas.</label>
+    </div>
+    <button id="login-button">Login</button>
+  </div>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
