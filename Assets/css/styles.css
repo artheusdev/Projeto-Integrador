@@ -54,7 +54,9 @@ button:hover {
   font-size: 14px;
 }
 
-
+.terms a{
+  text-decoration: none;
+}
 
 .container {
   display: flex;
@@ -62,6 +64,8 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+
+
 
 @media (max-width: 499px) {
   body {
